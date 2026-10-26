@@ -64,7 +64,7 @@ class HudView(context: Context) : View(context) {
         super.onSizeChanged(w, h, oldw, oldh)
         val cx = w / 2f
         val cy = h / 2f
-        sweep = SweepGradient(cx, cy, deepCyan, cyan, deepCyan)
+        sweep = SweepGradient(cx, cy, intArrayOf(deepCyan, cyan, deepCyan), floatArrayOf(0f, 0.5f, 1f))
     }
 
     override fun onDraw(canvas: Canvas) {
