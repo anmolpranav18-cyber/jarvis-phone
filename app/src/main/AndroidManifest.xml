@@ -10,7 +10,7 @@
 
     <application
         android:label="JARVIS"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@android:drawable/sym_def_app_icon"
         android:theme="@android:style/Theme.Material.NoActionBar">
 
         <activity
